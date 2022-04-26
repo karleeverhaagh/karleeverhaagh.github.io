@@ -1,6 +1,6 @@
 body {
-  background-color: 
-  color: 
+  background-color: #CDC2E0;
+  color: #7A7A7A;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%
 }
@@ -8,6 +8,7 @@ body {
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid #957EBC;
+  border-bottom: 2px solid #957EBC;
+  background-color: rgba(141, 131, 215, 0.2)
 }
