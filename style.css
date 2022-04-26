@@ -1,8 +1,8 @@
 body {
   background-color: #CDC2E0;
   color: #7A7A7A;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 10% 20%;
 }
 
 .intro {
@@ -18,14 +18,26 @@ img {
   text-transform: uppercase;
   border-top: 3px dotted #957EBC;
   border-bottom: 3px dotted #957EBC;
-  width: 400px;
+  width: 800px;
   height: 50px;
   background-color: rgba(141, 131, 215, 0.2);
   animation-name: example;
   animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes example {
   from {background-color: lavenderblush;}
   to {background-color: rgba(141, 131, 215, 0.2);}
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #957EBC;
+  height: auto;
+  width: auto;
+  font-size: 14px;
 }
