@@ -24,7 +24,7 @@ img {
 }
 
 .exp-header:hover {
-  width: 1000px;
+  width: 750px;
   background-color: #957EBC;
   border-radius: 10px;
   transform: skew(-20deg);
