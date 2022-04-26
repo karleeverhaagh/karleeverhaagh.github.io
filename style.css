@@ -19,11 +19,13 @@ img {
   border-top: 3px dotted #957EBC;
   border-bottom: 3px dotted #957EBC;
   background-color: rgba(141, 131, 215, 0.2)
-  transition: all 2s ease-in-out;
+  transition-timing-function: ease-in-out;
+  transition: width 2s, height 2s, transform 2s;
 }
 
 .exp-header:hover {
-  width: 500px;
-  background-color: #9370DB;
+  width: 1000px;
+  background-color: #957EBC;
   border-radius: 10px;
+  transform: skew(-20deg);
 }
