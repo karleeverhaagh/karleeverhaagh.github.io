@@ -3,16 +3,26 @@ body {
   color: #7A7A7A;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%
+  background-image: ;
 }
 
 .name {
   text-align: center;
 }
 
+.picture {
+  text-align: center;
+  border: 2px dotted #957EBC ;
+}
+
+.about{
+  text-align: center;
+}
+
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 2px solid #957EBC;
-  border-bottom: 2px solid #957EBC;
+  border-top: 3px dotted #957EBC;
+  border-bottom: 3px dotted #957EBC;
   background-color: rgba(141, 131, 215, 0.2)
 }
